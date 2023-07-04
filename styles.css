@@ -1,0 +1,145 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*div nombre*/
+.name {
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    background-color: #030027;
+    color: #F2F3D9;
+    opacity: .8;
+}
+h1 {
+    margin: 0%;
+}
+/*div principal*/
+.main {
+    width: 100%;
+    display: flex;
+}
+
+/*div contenedor sidebar*/
+.sidebar {
+    width: 30%;
+    padding: 2%;
+    background-color: #151E3F;
+    color: #F2F3D9;
+    opacity: .8;
+}
+/*div bloque sidebar-social*/
+.sidebar-social {
+    width: 100%;
+    margin: 5%;
+}
+.social-info1 {
+    width: 100%;
+    display: flex;
+}
+.social-img1 {
+    padding-bottom: 10%;
+}
+.social1 {
+    width: 100%;
+    margin: 0%;
+    padding-left: 10%;
+}
+.social-info2 {
+    width: 100%;
+    display: flex;
+}
+.social-img2 {
+    padding-bottom: 10%;
+}
+.social2 {
+    width: 100%;
+    margin: 0%;
+    padding-left: 10%;
+}
+.social-info3 {
+    width: 100%;
+    display: flex;
+}
+.social3 {
+    width: 100%;
+    margin: 0%;
+    padding-left: 10%;
+}
+
+
+/*div contenedor conten*/
+.conten {
+    width: 60%;
+    padding-left: 2%;
+    background-color: 	hwb(40 99% 0%);
+}
+/*div bloque conten-training*/
+.conten-training {
+    width: 100%;
+    margin: 0%;
+}
+.training-info1 {
+    width: 100%;
+    display: flex;
+}
+.info1-img {
+  padding-top: 5%;
+  width: 10%;
+}
+.description-1 {
+    padding-left: 10%;
+    margin: 0%;
+}
+.training-info2 {
+    width: 100%;
+    display: flex;
+}
+.info2-img {
+  padding-top: 5%;
+  width: 10%;
+  text-align: center;
+}
+.description-2 {
+    padding-left: 10%;
+    margin: 0%;
+}
+.training-info3 {
+    width: 100%;
+    display: flex;
+}
+.info3-img {
+  padding-top: 5%;
+  width: 10%;
+}
+.description-3 {
+    padding-left: 10%;
+    margin: 0%;
+}
+.training-info4 {
+    width: 100%;
+    display: flex;
+}
+.info4-img {
+  padding-top: 5%;
+  width: 10%;
+}
+.description-4 {
+    padding-left: 10%;
+    margin: 0%;
+}
+.training-info5 {
+    width: 100%;
+    display: flex;
+}
+.info5-img {
+  padding-top: 5%;
+  width: 10%;
+  text-align: center;
+}
+.description-5 {
+    padding-left: 10%;
+    margin: 0%;
+}
+/*div bloque conten-work*/
