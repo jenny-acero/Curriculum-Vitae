@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*div nombre*/
@@ -11,6 +12,7 @@ body {
     background-color: #030027;
     color: #F2F3D9;
     opacity: .8;
+    padding: 2%;
 }
 h1 {
     margin: 0%;
@@ -23,16 +25,38 @@ h1 {
 
 /*div contenedor sidebar*/
 .sidebar {
-    width: 30%;
-    padding: 2%;
+    width: 20%;
+    padding: 0%;
     background-color: #151E3F;
     color: #F2F3D9;
     opacity: .8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+/*div sidebar-information*/
+.sidebar-information {
+    height: 50%;
+    text-align: center;
+}
+.information-personal {
+    text-align: center;
+}
+/*sidebar-skills*/
+.sidebar-skills {
+    height: 50%;
+    text-align: center;
+}
+.skills-description {
+    text-align: center;
 }
 /*div bloque sidebar-social*/
 .sidebar-social {
-    width: 100%;
-    margin: 5%;
+    height: 50%;
+    text-align: center;
+    align-items: center;
 }
 .social-info1 {
     width: 100%;
@@ -71,9 +95,12 @@ h1 {
 
 /*div contenedor conten*/
 .conten {
-    width: 60%;
     padding-left: 2%;
     background-color: 	hwb(40 99% 0%);
+    padding-right: 1%;
+}
+h4 {
+    font-size: 120%;
 }
 /*div bloque conten-training*/
 .conten-training {
@@ -142,4 +169,3 @@ h1 {
     padding-left: 10%;
     margin: 0%;
 }
-/*div bloque conten-work*/
