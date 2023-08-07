@@ -70,6 +70,12 @@ h1 {
     margin: 0%;
     padding-left: 10%;
 }
+.facebook {
+    color: #F2F3D9;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
 .social-info2 {
     width: 100%;
     display: flex;
@@ -82,6 +88,11 @@ h1 {
     margin: 0%;
     padding-left: 10%;
 }
+.github {
+    color: #F2F3D9;
+    text-decoration: none;
+    font-weight: bold;
+}
 .social-info3 {
     width: 100%;
     display: flex;
@@ -91,7 +102,11 @@ h1 {
     margin: 0%;
     padding-left: 10%;
 }
-
+.linkedin {
+    color: #F2F3D9;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 /*div contenedor conten*/
 .conten {
